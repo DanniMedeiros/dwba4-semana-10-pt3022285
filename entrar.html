@@ -6,6 +6,7 @@
   <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon"> 
   <link rel="stylesheet" href="css/formularios.css">
   <script src="js/disabling.js"></script>
+
 </head>
 <body>
   
@@ -13,29 +14,53 @@
     <nav>
       <object width="100%" height="200px" data="menu.html"></object>
     </nav>    
-    
-  </header>
-  
-  <main> 
-		<h1>Entrar</h1>
-        <form method="POST">
-            <div>
-                <label for="entrar-usuario">Usuário</label>
-                <input type="text" name="usuario" id="entrar-usuario" required />
-            </div>
-            <br>
-            <div>
-                <label for="entrar-senha">Senha</label>
-                <input type="
-            </div>
-            <br>
-            <div>
-                <input type="submit" value="Entrar">
-                <a href="#">Esqueci a senha</a>
-            </div>
-        </form>
-  </main>
-  
+    <body>
+
+        <center><div id="login">
+
+            <form class="card">
+
+                <div class="card-header">
+
+                    <center><h2>Faça Login</h2></center>
+
+                <center></div>
+
+                <div class="card-content">
+
+                    <div class="card-content-area">
+
+                        <label for="usuario">Usuário</label>
+
+                        <input type="text" id="usuario" autocomplete="off" required>
+
+                    </div>
+
+                    <center><div class="card-content-area">
+
+                        <label for="password">Senha</label>
+
+                        <input type="password" id="password" autocomplete="off" required>
+                      <br><input type="checkbox" id="js" name="linguagens" value="jslang">
+<label for="js">Lembrar de mim</label>
+                    </div>
+
+                </div>
+
+                <center><div class="card-footer">
+
+                    <input type="submit" value="Login" class="submit">
+
+                    <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+
+                </div>
+
+            </form>
+
+        </div></center>
+
+    </body>
+ 
   <footer>     
       <object width="100%" height="200px" data="rodape.html"></object>
   </footer>
